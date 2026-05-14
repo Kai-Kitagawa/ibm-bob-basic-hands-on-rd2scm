@@ -94,23 +94,43 @@ Bobが変更内容を分析して、PR説明文を提案します。
 #### 提案される説明文の例：
 
 ```markdown
-## 概要
-FAQサイトの初期実装とテーマ切り替え機能を追加しました。
+## Summary
+This pull request adds a new FAQ site for Bob, an AI-powered coding companion. The site includes a comprehensive FAQ section with questions and answers organized into categories (General, Usage, Advanced Features, and Troubleshooting), along with theme switching functionality and responsive design.
 
-## 変更内容
-- FAQサイトの基本構造を実装（HTML/CSS/JavaScript）
-- ダークモード切り替え機能を追加
-- レスポンシブデザインに対応
-- コードレビューで指摘されたセキュリティ問題を修正
+## Files Changed
+📄 Hands-on/faq-site/bob.svg
 
-## 確認ポイント
-- [ ] FAQサイトが正しく表示される
-- [ ] テーマ切り替えが動作する
-- [ ] レスポンシブデザインが機能する
-- [ ] セキュリティ問題が解決されている
+Adds the Bob logo as an SVG file. The logo features a robot/coding assistant character with a gradient color scheme (blue to purple) matching the Bob brand colors. The SVG includes detailed styling with multiple layers for the head, body, and coding-related visual elements.
 
-## スクリーンショット
-（必要に応じて追加）
+📄 Hands-on/faq-site/index.html
+
+Creates the main HTML structure for the Bob FAQ site. The page includes:
+
+- A header with the Bob logo, title, and theme toggle button
+- Four FAQ sections covering general information, usage instructions, advanced features, and troubleshooting
+- Collapsible FAQ items with questions and detailed answers
+- A footer with copyright information
+-Japanese language content (lang="ja") with comprehensive information about Bob's capabilities, usage, and safety considerations
+
+📄 Hands-on/faq-site/script.js
+
+Implements the interactive functionality for the FAQ site:
+
+- Accordion-style expand/collapse behavior for FAQ items
+- Theme switching between light and dark modes with localStorage persistence
+- Accessibility features including ARIA attributes for screen readers
+- Event listeners for user interactions with FAQ questions and theme toggle button
+
+📄 Hands-on/faq-site/styles.css
+
+Provides comprehensive styling for the FAQ site including:
+
+- CSS custom properties for theme colors supporting both light and dark modes
+- Bob brand colors (primary blue #0f62fe and purple gradient)
+- Responsive design with media queries for mobile, tablet, and desktop viewports
+- Smooth transitions and animations for interactive elements
+- Accessible styling for code snippets, lists, and text content
+- Modern design with shadows, rounded corners, and hover effects
 ```
 
 #### ユーザーのアクション：
