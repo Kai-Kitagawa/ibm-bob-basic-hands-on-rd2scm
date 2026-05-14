@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bob FAQ - よくある質問</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <a href="https://www.ibm.com/products/bob" target="_blank" rel="noopener noreferrer">
+                <img src="bob.svg" alt="Bob Logo" class="logo">
+            </a>
+        </div>
+        <header>
+            <h1>Bob FAQ</h1>
+            <p class="subtitle">よくある質問</p>
+        </header>
+
+        <div class="search-container">
+            <input 
+                type="text" 
+                id="searchInput" 
+                placeholder="検索..." 
+                aria-label="FAQ検索"
+            >
+        </div>
+
+        <div id="faqContainer"></div>
+
+        <div id="noResults" class="no-results" style="display: none;">
+            <p>検索結果が見つかりませんでした。</p>
+        </div>
+    </div>
+
+    <button id="themeToggle" class="theme-toggle" aria-label="テーマ切り替え">
+        <span class="theme-icon">🌙</span>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
