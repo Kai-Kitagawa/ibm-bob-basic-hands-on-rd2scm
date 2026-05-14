@@ -18,8 +18,6 @@ Lab3までで作成したFAQサイトのソースをGitで管理します。
 
 「新しいタスクを開始」を押して、セッションを切り替えてください。
 
-![新しいタスクを開始ボタン](画像パス予定)
-
 ## GitHubリポジトリへの差分反映
 ### 1. コミットメッセージの作成
 
@@ -31,15 +29,13 @@ IBM Bobのコミットメッセージ作成支援機能を使います。
 2. 「✨」アイコン（AI生成）をクリック
 3. Bobが差分を分析してメッセージを提案
 
-![コミットメッセージ生成ボタン](画像パス予定)
+![コミットメッセージ生成ボタン](/Image/source-control-lab/image.png)
 
 #### Bobが提案するメッセージの例：
 
 ```
 docs: add design and specification documents for FAQ site
 ```
-
-![生成されたコミットメッセージ](画像パス予定)
 
 #### ユーザーのアクション：
 
@@ -54,8 +50,6 @@ docs: add design and specification documents for FAQ site
 
 1. ソース管理パネルで「コミット」をクリック
 
-![コミット完了画面](画像パス予定)
-
 ### 3. 変更をリモートにプッシュ
 
 コミット後、変更をGitHubにプッシュします。
@@ -64,7 +58,9 @@ docs: add design and specification documents for FAQ site
 
 1. ソース管理パネルで「変更の同期」をクリック
 
-![変更の同期](画像パス予定)
+![変更の同期](/Image/source-control-lab/image-1.png)
+
+※GitHubの認証を求められた場合は認証処理を進めてください。
 
 ### 4. プルリクエストの作成
 
@@ -76,20 +72,16 @@ IBM Bobのプルリクエスト作成支援機能を使います。
 1. Bob IDEで「プルリクエストを作成」を選択
 2. Bobが変更内容を分析してPR説明文を生成
 
-![プルリクエスト作成メニュー](画像パス予定)
-
 #### 方法2: スラッシュコマンドで作成
 
 1. チャット画面で `/create-pr` と入力
 2. Bobが変更内容を分析してPR説明文を生成
 
-![/create-prコマンド実行画面](画像パス予定)
+![プルリクエスト作成メニューと/create-prコマンド](/Image/source-control-lab/image-2.png)
 
 #### PR説明文の生成：
 
 Bobが変更内容を分析して、PR説明文を提案します。
-
-![PR説明文生成画面](画像パス予定)
 
 #### 提案される説明文の例：
 
@@ -138,7 +130,7 @@ Provides comprehensive styling for the FAQ site including:
 - 説明文を確認・編集
 - 「Create pull request」をクリック
 
-![PR作成完了画面](画像パス予定)
+![PR作成完了画面](/Image/source-control-lab/image-3.png)
 
 ## Lab4タスクの完了
 
@@ -146,8 +138,6 @@ Provides comprehensive styling for the FAQ site including:
 
 コミットメッセージとプルリクエストの作成が完了しました！  
 IBM Bobを活用することで、変更内容を適切に記録し、チームに共有できます。
-
-![タスク完了画面](画像パス予定)
 
 **完了条件:**
 - コミットが作成された  
