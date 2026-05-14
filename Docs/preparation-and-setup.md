@@ -20,6 +20,10 @@
 3. Fork先のアカウントを選択（通常は自分のアカウント）
 4. 「Create fork」をクリック
 
+![alt text](/Image/preparation-and-setup/image.png)
+
+![alt text](/Image/preparation-and-setup/image-1.png)
+
 ##### 1-1-2. devブランチの作成
 
 Forkしたリポジトリのmainブランチから、新しくdevブランチを作成します。
@@ -29,6 +33,10 @@ Forkしたリポジトリのmainブランチから、新しくdevブランチを
 1. Forkしたリポジトリのページで、ブランチドロップダウン（「main」と表示されている部分）をクリック
 2. テキストボックスに「dev」と入力
 3. 「Create branch: dev from 'main'」をクリック
+
+![alt text](/Image/preparation-and-setup/image-2.png)
+
+![alt text](/Image/preparation-and-setup/image-3.png)
 
 ##### 1-1-3. IBM Bobの起動
 
@@ -47,7 +55,7 @@ Forkしたリポジトリのdevブランチをローカルにクローンしま�
 3. Forkしたリポジトリ（自分のアカウント）のURLを入力する
    - 例: `https://github.com/[あなたのユーザー名]/ibm-bob-basic-hands-on-rd2scm`
 4. クローン先のディレクトリを選択する
-5. クローンが完了したら、「キャンセル」をクリックする
+5. クローンが完了すると、「リポジトリを開きますか？」と聞かれるので「キャンセル」をクリックする
 
 ##### 1-1-5. プロジェクトフォルダを開く
 
@@ -64,8 +72,12 @@ Forkしたリポジトリのdevブランチをローカルにクローンしま�
 4. 「フォルダーの選択」をクリック
 
 ##### 1-1-6. devブランチに切り替える
-   - IBM Bob画面左下に表示されている現在のブランチ名（「main」）をクリック
-   - 上部に表示されるブランチ一覧から「origin/dev」を選択
+
+1. IBM Bob画面左下に表示されている現在のブランチ名（「main」）をクリック
+2. 上部に表示されるブランチ一覧から「origin/dev」を選択
+
+※IBM Bob画面左下にブランチ名が表示されない場合はソース管理パネルを開き、「リポジトリを開く」をクリックしてから、1.に戻ってください。
+![alt text](/Image/preparation-and-setup/image-4.png)
 
 ### 2. Lab 4: ソース管理　を実施しない場合
 
